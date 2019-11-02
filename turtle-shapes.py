@@ -29,18 +29,18 @@ print(len(colors))
 
 fred.dot(200)'''
 
-'''for i in range(100):
+for i in range(100):
     color = random.choice(colors)
     print(color)
     fred.color(color)
     fred.circle(5 * i)
-    fred.left(10)'''
+    fred.left(10)
 
-for i in range(25):
+'''for i in range(25):
     for j in range(3):
         fred.forward(15 * i)
         fred.left(120)
     fred.backward(7.5)
     fred.right(90)
     fred.forward(5)
-    fred.left(90)
+    fred.left(90)'''
