@@ -47,7 +47,7 @@ def modulus( x=1, y=1, *other, **someOtherValues):
 # modulus(500, 300, 3282399, "shjsdk", z = 27, a ="sjkvkv")
 
 
-def employee(id,name,salary, *otherDetails, **extraDetails):
+def employee(id,name,salary=0, *otherDetails, **extraDetails):
     print(f"id is  {id}")
     print(f"name is {name}")
     print(f"salary is {salary}")
