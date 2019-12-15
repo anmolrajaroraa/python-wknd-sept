@@ -1,0 +1,32 @@
+File Handling
+
+Modes for text file-
+1. r - Read mode - File should exist
+read - reads complete data
+read(50) - reads specified characters
+readline - reads one line at a time
+readlines - reads all the lines and put them in a list
+
+2. w - Write mode - File will be created if not found
+it starts writing from the beginning, so it deletes all the data in a file and then start writing
+
+3. a - Append mode - File will be created if not found
+it starts writing from the end of the file, so it doesn't delete any existing data
+
+4. r+ -> read and write
+File should exist
+Both of them start from the beginning of the file
+Write is not going to delete complete data, it will override only those characters where it wants to write new characters
+
+5. w+ -> write and read
+File will be created if not found
+Write is going to delete all the data because w+ has priority for writing and that's why rules of write mode are followed
+
+6. a+ -> Same as w+, just that it's not going to modify old data, it will start writing from the end of the file
+it's different from append mode because it only supports appending, but a+ supports appending as well as reading also
+
+Binary files (bytes)-
+1. rb
+2. wb
+3. rb+
+4. wb+
